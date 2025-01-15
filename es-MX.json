@@ -18,7 +18,7 @@
                 "cancel": "Cancelar",
                 "play": "Jugar",
                 "load": "Cargar",
-                "go-back": "Retroceder",
+                "go-back": "Regresar",
                 "delete": "Eliminar",
                 "rename": "Renombrar",
                 "lock": "Bloquear",
@@ -193,8 +193,8 @@
                 "vertical": "Vertical",
                 "both-axes": "Ambos ejes",
                 "standard": "Estándar",
-                "more-buttons": "Más botones",
-                "reset-to-default": "Restablecer valores por defecto",
+                "more-buttons": "Más opciones",
+                "reset-to-default": "Restablecer valores predeterminados",
                 "unapplicable": "No aplicable"
             }
         },
@@ -202,7 +202,7 @@
             "buttons": {
                 "play-level": "[scale=0.8]Jugar nivel[/scale]",
                 "level-editor": "[scale=0.8]Editor[/scale]",
-                "extras": "[scale=0.8]Minijuegos[/scale][scale=0.5]\n[color=#CCCCCC]En progreso[/color][/scale]"
+                "extras": "[scale=0.8]Minijuegos[/scale][scale=0.5]\n[color=#CCCCCC]Próximamente[/color][/scale]"
             },
             "tooltips": {
                 "join-lss": "¡Visita Level Share Square!",
@@ -246,17 +246,17 @@
                 "code-notice": "¡Puedes compartir este código con otras personas para que puedan jugar tu nivel! También se recomienda guardar los códigos de los niveles como copia de seguridad.",
                 "compact-notice": "Los códigos compactos unicamente contienen los datos para construir tu nivel, eliminando los datos almacenados exclusivamente para los diseñadores del nivel.",
                 "production-notice": "El código para producción guarda datos adicionales que son útiles durante el diseño de los niveles, como los elementos de la barra de favoritos.",
-                "import-code-notice": "Pega un código de nivel aquí, y el nivel se guardará dentro del juego. Aún así se recomienda que hagas copias de seguridad regulares de tu nivel guardando el código en tu dispositivo y/o en Level Share Square.",
+                "import-code-notice": "Pega un código de nivel aquí, y el nivel se guardará dentro del juego. Igualmente se recomienda que hagas copias de seguridad regulares de tu nivel guardando el código en tu dispositivo y/o en Level Share Square.",
                 "first-paste-code": "Primero tienes que pegar el código de tu nivel.",
-                "unrecognized-code": "Lo sentimos, no se ha podido reconocer este código de nivel.",
-                "outdated-version": "Este código de nivel está pensado para una versión más reciente de Super Mario Construct.",
-                "missing-startpoint": "[!]The startpoint is invalid. Notify the creator to place a startpoint in an existing map."
+                "unrecognized-code": "Una disculpa, el código no se pudo reconocer.",
+                "outdated-version": "El código que introduciste parece estar pensado para una versión más nueva de Super Mario Construct.",
+                "missing-startpoint": "No hay punto de partida. Pídele al autor que coloque uno en un mapa existente."
             }
         },
         "regular-play": {
             "labels": {
                 "made-by": "Hecho por",
-                "no-desc": "No se ha establecido ninguna descripción para este nivel.",
+                "no-desc": "Sin descripción.",
                 "time": "TIEMPO"
             },
             "html": {
@@ -266,10 +266,10 @@
         "toolbar": {
             "bottom-buttons": {
                 "general-tiles": "Bloques Generales",
-                "tilesets": "Colección de Bloques",
+                "tilesets": "Set de Teselas",
                 "objects": "Objetos",
                 "enemies": "Enemigos",
-                "warps": "Teletransportadores",
+                "warps": "Portales",
                 "layers": "Capas",
                 "effects": "Efectos",
                 "maps": "Mapas",
@@ -295,7 +295,7 @@
                 "switches": "Interruptores",
                 "goals": "Metas y puntos de control",
                 "advanced": "Bloques avanzados",
-                "envChangers": "[!]Environmental Changers",
+                "envChangers": "Cambios ambientales",
                 "mainEnemies": "Enemigos comunes",
                 "shellEnemies": "Enemigos con caparazón",
                 "waterEnemies": "Enemigos marítimos",
@@ -319,8 +319,8 @@
                 "backup-settings": "Autoguardado y copia de seguridad"
             },
             "tileset-menu": {
-                "footer": "Haz clic sobre el ícono de un conjunto para abrir su página.[scale=0.5]\n\n[/scale]Arrastra el ícono de una colección a la barra de favoritos para acceder a ella desde cualquier parte del editor.",
-                "go-back": "Retroceder a todos los conjuntos"
+                "footer": "Haz clic sobre el ícono de un set para abrir su página.[scale=0.5]\n\n[/scale]Arrastra su ícono a la barra de favoritos para acceder a ella desde cualquier parte del editor.",
+                "go-back": "Regresar a todos los sets"
             },
             "mini-toolbar": {
                 "expand-palettes": "Expandir paletas",
@@ -461,8 +461,8 @@
             "text": {
                 "obj-pipe": "[scale=0.75]Las tuberías de esta página se consideran [/scale]objetos[scale=0.75] (no [/scale]bloques[scale=0.75]), y se almacenan en capas de objetos. Estos tubos pueden ampliarse y personalizarse para expandirse y encogerse con el tiempo.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Este objeto es un generador de sprites invisible. Si quieres que una tubería actue como generador, ¡Sólo debes arrastrar este objeto a una! Asegúrate de configurarlo primero.[/scale]",
-                "electric-tiles": "Estos son bloques eléctricos que pueden lastimar a la mayoría de criaturas orgánicas. Los sprites metálicos temporalmente pueden conducir electricidad, incluyendo Metal Mario",
-                "scenery-doors": "Nota: éstas son puertas de decorado. Si buscas puertas de acceso, ve al menú de teletransportadores al presionar el ícono de tuberías en la parte inferior.",
+                "electric-tiles": "Estas son teselas eléctricas que pueden lastimar a la mayoría de criaturas orgánicas. Los sprites metálicos temporalmente pueden conducir electricidad, incluyendo Metal Mario",
+                "scenery-doors": "Nota: éstas son puertas de decorado. Si buscas puertas de acceso, ve al menú de portales presionando el ícono de una tubería en la parte inferior del editor.",
                 "advanced-platform": "Plataforma avanzada\n[scale=0.75]¡Estas plataformas son altamente personalizables! Los bloques junto a ellos pueden influir en su comportamiento.[/scale]",
                 "persistent-area-tile": "Mantener sprites cargados",
                 "area-object-loader": "Precargar sprites en un área",
@@ -500,7 +500,7 @@
                 "green-dotted-line-block": "Bloque de Puntos Verdes",
                 "red-dotted-line-block": "Bloque de Puntos Rojos",
                 "blue-dotted-line-block": "Bloque de Puntos Azules",
-                "rock-block": "[!]Rock Block",
+                "rock-block": "Bloque de Roca",
                 "standard-coin": "Moneda",
                 "goal-orb": "Bola Mágica",
                 "yoshi-egg": "Huevo de Yoshi",
@@ -760,7 +760,7 @@
                 "grinder": "Sierra",
                 "grinder-stationary": "Sierra (Inmóvil)",
                 "thwimp": "Piedra Picuda",
-                "falling-spike": "Pico Descendiente",
+                "falling-spike": "Pico Inestable",
                 "mechakoopa": "Mecakoopa",
                 "green-climbing-koopa": "Koopa Trepador Verde",
                 "red-climbing-koopa": "Koopa Trepador Rojo",
@@ -799,10 +799,10 @@
                 "red-jumping-piranha-plant-fiery": "Planta Piraña Roja Saltarina[s]De fuego",
                 "thorny-jumping-piranha-plant-fiery": "[!]Thorny Jumping Piranha Plant[s]Fiery",
                 "volcano-lotus": "Planta Volcano",
-                "big-falling-icicle": "Carámbano Grande Descendiente",
-                "small-falling-icicle": "Carámbano Chico Descendiente",
-                "big-falling-stalactite": "Estalactita Grande Descendiente",
-                "small-falling-stalactite": "Estalactita Chica Descendiente",
+                "big-falling-icicle": "Carámbano Grande Inestable",
+                "small-falling-icicle": "Carámbano Chico Inestable",
+                "big-falling-stalactite": "Estalactita Grande Inestable",
+                "small-falling-stalactite": "Estalactita Chica Inestable",
                 "amp": "Chispayaso",
                 "fire-snake": "Serpiente de Fuego",
                 "bounding-fire": "Boundin' Fire",
@@ -913,9 +913,9 @@
                 "forest": "[!]Forest",
                 "hedge": "[!]Hedge",
                 "garden": "[!]Garden",
-                "ship": "[!]Airship/Tank",
-                "sewer": "[!]Sewer",
-                "global": "[!]Global/General Tiles",
+                "ship": "Aeronave/Tanque",
+                "sewer": "Alcantarilla",
+                "global": "Teselas Generales",
                 "arch": "[!]Arches (Bridges)",
                 "turnip": "[!]Turnip",
                 "bunting": "[!]Bunting & Garland",
@@ -1325,25 +1325,25 @@
         "pause-options": {
             "labels": {
                 "game-paused": "JUEGO EN PAUSA",
-                "close-menu-to-return": "Cierra el menú para volver",
-                "editing-control-keybinds": "Editando combinaciones de teclas de control",
+                "close-menu-to-return": "Haz clic en Cerrar para regresar",
+                "editing-control-keybinds": "Editando combinaciones de teclas",
                 "viewing-debugger": "Viendo el depurador",
                 "control-config-k": "Configuración del teclado",
                 "control-config-g": "Configuración del mando\n[scale=0.65][color=#CCCCCC]Los botones del mando usan identificadores numéricos[/color][/scale]",
                 "graphics-settings": "Ajustes de rendimiento y gráficos",
-                "in-game-username": "Nombre de usuario en el juego",
-                "in-game-username-colour": "[!]Username Color",
-                "fullscreen-scaling": "Escalado a pantalla completa",
+                "in-game-username": "Nombre en el juego",
+                "in-game-username-colour": "Color del nombre",
+                "fullscreen-scaling": "Escalado",
                 "fill-screen": "Rellenar pantalla",
                 "perfect-resolution": "Resolución perfecta",
-                "account-settings": "Vinculación a cuenta de Level Share Square",
-                "email": "Correo electrónico",
+                "account-settings": "Vincular a cuenta de Level Share Square",
+                "email": "Correo",
                 "password": "Contraseña",
                 "logout": "Cerrar sesión",
                 "logged-in-as": "Conectado/a como {0}",
-                "x-levels-on-lss": "{0} niveles en Level Share Square",
+                "x-levels-on-lss": "{0} nivel(es) en Level Share Square",
                 "log-out-confirmation": "¿Seguro/a que quieres cerrar sesión?",
-                "offline-notice": "Estás desconectado/a, por lo que las funciones de LSS no están disponibles en este momento.",
+                "offline-notice": "Estás desconectado/a, las funciones de LSS no están disponibles.",
                 "accessibility": "accesibilidad"
             },
             "buttons": {
@@ -1352,11 +1352,11 @@
                 "extra-options-tools": "Opciones adicionales",
                 "main-menu": "Menú principal",
                 "frame-skip": "Salto de fotogramas",
-                "reduced-particles": "Reducción de artículas",
-                "crt-filter": "Filtro TRC",
+                "reduced-particles": "Reducción de partículas",
+                "crt-filter": "Filtro tipo tubo catódico",
                 "smooth-lighting": "Iluminación suave",
                 "log-in": "Iniciar sesión",
-                "lss-profile": "Perfil de LSS",
+                "lss-profile": "Cuenta de LSS",
                 "colorblind-mode": "Modo daltónico",
                 "disable-screenshake": "Desactivar vibración de pantalla",
                 "visualized-timers": "Mostrar temporizadores"
@@ -1368,10 +1368,10 @@
                 "play-death-anim": "Reproducir animación de muerte",
                 "edit-keybinds": "Editar combinaciones de teclas",
                 "graphics-settings": "Ajustes gráficos",
-                "account-settings": "Configuración de la cuenta de LSS",
+                "account-settings": "Configurar cuenta de LSS",
                 "accessibility-options": "Opciones de accesibilidad",
-                "frame-skip": "Omite fotogramas cuando el framerate es bajo para evitar ralentizarse.\n[scale=0.75][color=#CCCCCC]Nota: a frecuencias de cuadro muy bajas, se pueden empezar a producir problemas de colisión. Sin la omisión en fotogramas, se producirá ralentización por debajo de 60 FPS.[/color][/scale=0.75]",
-                "reduced-particles": "Aplicar un límite más estricto a las partículas con física (32 en lugar de 128)."
+                "frame-skip": "Omite fotogramas cuando la tasa de fotogramas es baja para evitar ralentizarse.\n[scale=0.75][color=#CCCCCC]Nota: se pueden producir problemas de colisión si la tasa es muy baja. Sin la omisión en fotogramas, se ralentizará por debajo de 60 FPS.[/color][/scale=0.75]",
+                "reduced-particles": "Impone un límite de partículas más estricto para minimizar el lag."
             }
         },
         "themes": {
@@ -1517,8 +1517,8 @@
         },
         "misc-labels": {
             "controls": {
-                "move-left": "Moverse a la izquierda",
-                "move-right": "Moverse a la derecha",
+                "move-left": "Izquierda",
+                "move-right": "Derecha",
                 "jump": "Saltar",
                 "duck": "Agacharse",
                 "spinjump": "Salto giratorio",
@@ -1543,7 +1543,7 @@
                 "debug": "Depurador"
             },
             "tip-notifs": {
-                "tile-rotation": "[!]This tileset supports tile rotation! Press CTRL to rotate tiles.",
+                "tile-rotation": "¡Este set de teselas permite rotar teselas! Presiona CTRL para rotarlas.",
                 "icy-palette": "[!]This palette is icy, sprites can have slippery physics!"
             },
             "music-manager": {
