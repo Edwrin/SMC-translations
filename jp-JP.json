@@ -18,6 +18,7 @@
                 "cancel": "キャンセル",
                 "play": "遊ぶ",
                 "load": "ロード",
+                "paste": "[!]Paste",
                 "go-back": "戻る",
                 "delete": "削除",
                 "rename": "名前を変更",
@@ -31,7 +32,8 @@
                 "detach": "[!]Detach",
                 "exit": "終了",
                 "editor": "エディタ",
-                "click-configure": "クリックして設定します。"
+                "click-configure": "クリックして設定します。",
+                "got-it": "[!]Got it!"
             },
             "time": {
                 "days": {
@@ -247,7 +249,8 @@
                 "restore-points": "復元ポイントの表示",
                 "open-editor": "エディタを開く",
                 "view-code": "コードを表示",
-                "delete": "削除する"
+                "delete": "削除する",
+                "check-level-storage-tips": "[!]Check level storage tips"
             },
             "html": {
                 "level-name-placeholder": "後でいつでも変更できる",
@@ -266,7 +269,14 @@
                 "first-paste-code": "最初にレベルコードを貼り付ける必要があります。",
                 "unrecognized-code": "すみません、このレベルコードは認識できませんでした。",
                 "outdated-version": "このレベルコードはSuper Mario Constructの新しいバージョン用です。",
-                "missing-startpoint": "[!]The startpoint is invalid. Notify the creator to place a startpoint in an existing map."
+                "missing-startpoint": "[!]The startpoint is invalid. Notify the creator to place a startpoint in an existing map.",
+                "cloud-backups-header": "[!]Keeping your levels safe with cloud back-ups",
+                "smc-saves-levels": "[!]Super Mario Construct saves your levels locally for convenience.",
+                "external-software-notice": "[!]However, external software (like disk cleanup software) can periodically erase browser storage.",
+                "cloud-backup-suggestion": "[!]To keep your levels safe, using LSS cloud backups is highly recommended. It will keep a copy of your level on our servers, even if your device breaks!",
+                "login-instructions": "[!]To login to Level Share Square, go to the Title Screen, press ⚙️ and go to LSS-settings.",
+                "lss-logged-in": "[!]You're logged into Level Share Square!",
+                "when-logged-in": "[!]When logged in, every new level you make will automatically be backed-up and synchronized on our servers!"
             }
         },
         "regular-play": {
@@ -654,6 +664,7 @@
                 "message-sign": "[!]Message Sign",
                 "mount-blockade": "Mount Blockade",
                 "scale-lift": "[!]Scale Lift",
+                "spring-platform": "[!]Spring Platform",
                 "retro-coin": "[!]Retro Coin",
                 "goomba": "クリボー",
                 "galoomba": "クリボン",
@@ -722,6 +733,8 @@
                 "fire-bro": "ファイアブロス",
                 "ice-bro": "アイスブロス",
                 "podoboo": "バブル",
+                "toxiboo": "[!]Toxiboo",
+                "cryoboo": "[!]Cryoboo",
                 "thwomp": "ドッスン",
                 "left-falling-thwomp": "左へ落ちるドッスン",
                 "up-falling-thwomp": "上へ落ちるドッスン",
@@ -876,7 +889,9 @@
                 "small-falling-stalactite": "しょうにゅうせき（小さい、落ちる）",
                 "amp": "ビリキュー",
                 "fire-snake": "ファイアスネーク",
+                "ice-snake": "[!]Ice Snake",
                 "bounding-fire": "バウンドファイア",
+                "bounding-ice": "[!]Boundin' Ice",
                 "small-flame": "ボヤ",
                 "angry-sun": "太陽",
                 "goonie": "あほーどり",
@@ -961,6 +976,11 @@
                 "blue-yoshi": "あおヨッシー",
                 "yellow-yoshi": "きいろヨッシー",
                 "bombshell-yoshi": "くろヨッシー",
+                "goomba-shoe": "[!]Goomba Shoe",
+                "red-goomba-shoe": "[!]Red Goomba Shoe",
+                "blue-goomba-shoe": "[!]Blue Goomba Shoe",
+                "yellow-goomba-shoe": "[!]Yellow Goomba Shoe",
+                "bombshell-goomba-shoe": "[!]Bombshell Goomba Shoe",
                 "lakitus-cloud": "ジュゲムの雲",
                 "persistent-area-tile": "常時ロード",
                 "area-object-loader": "プリロード",
@@ -1350,6 +1370,7 @@
                     "dont-unload": "アンロードしない",
                     "screenwrap-h": "水平方向に消えない",
                     "screenwrap-v": "垂直に消えない",
+                    "show-direction-and-countdown": "[!]Show direction and countdown",
                     "scale-lift-sizes-info": "[!]The height of the scale lift ropes. The size of the left and right ropes together determines the maximum distance platforms can move down.",
                     "scale-lift-prevent-detach": "[!]Prevent platforms from detaching"
                 },
@@ -1424,7 +1445,10 @@
                     "frown": "[!]Frown",
                     "upset": "[!]Upset",
                     "dance": "[!]Dance",
-                    "run-away": "[!]Run away"
+                    "dance-floating": "[!]Dance (floating)",
+                    "run-away": "[!]Run away",
+                    "shocked": "[!]Shocked",
+                    "shocked-floating": "[!]Shocked (floating)"
                 },
                 "treasure-chest": {
                     "activate-tags": "[!]Activate tags (opens other chests)",
@@ -1452,6 +1476,14 @@
                     "can-toss-player": "[!]Can toss player",
                     "can-toss-player-info": "[!]Star Arrow Clouds will always work on the player, and also put them in a tossed state.\n[sub]This also makes the player affected by regular Arrow Clouds, so you only need 1 Star Arrow Cloud at the start of a chain.[/sub]",
                     "tagging-rotation-info": "[!]The Arrow Cloud's rotation can be started/stopped with tagging."
+                },
+                "darkness-caster": {
+                    "casting-layer": "[!]Casting layer",
+                    "casting-layer-tooltip": "[!]The layer that the darkness will be casted on.\n[sub]This means the darkness will go behind this layer.[/sub]"
+                },
+                "goomba-shoe": {
+                    "worn-out-info": "[!]Worn-out Goomba Shoes disappear when the rider leaves the shoe.",
+                    "is-worn-out": "[!]Is worn-out"
                 }
             },
             "enemies": {
@@ -1728,7 +1760,8 @@
                 "vertical-no-spawn": "[!]Vertical no-spawn zone",
                 "no-spawn-zone-offsets": "[!]No-spawn zone offsets",
                 "horizontal-offset": "[!]Horizontal offset",
-                "vertical-offset": "[!]Vertical offset"
+                "vertical-offset": "[!]Vertical offset",
+                "spawn-layer": "[!]Spawn layer"
             },
             "html": {
                 "intensity": "弱|常|強",
@@ -1737,7 +1770,8 @@
                 "opacity-options": "25％（最小限の暗闇）|50％|75％|100％（完全な暗闇）",
                 "affected-audio": "[!]Only sounds|Only music|Both sounds & music",
                 "wind-types": "[!]Breezy|Pushy|Storm|Hurricane|Turbo Tempest",
-                "sprite-gen-target-options": "[!]No target|Player|Center|Random position"
+                "sprite-gen-target-options": "[!]No target|Player|Center|Random position",
+                "first-object-layer": "[!]First OBJ layer"
             },
             "tooltips": {
                 "name": "この効果の名前（エディター上でのみ）",
@@ -1775,7 +1809,8 @@
                 "seconds-effect-plays-early": "[!]The time that the explosion effect plays out before the actual sprites are spawned in the cycle.\n[sub]Note: this should not be less than the cycle delay.[/sub]",
                 "sprite-gen-target-location": "[!]Some projectiles are able to spawn in targetting a specific position on the screen.\nFor horizontal moving sprites (e.g. Goombas), this only applies if spawning from the top or bottom screen edge.",
                 "no-spawn-zones": "[!]No-Spawn zones is the area, in tiles, that sprites can't spawn at. This zone is in the middle of the screen edge.\n[sub]Leave 0 to not have a no-spawn zone.[/sub]",
-                "no-spawn-zone-offsets": "[!]The amount of tiles the no-spawn zone lives from the center of the screen.\n[sub]Can be positive or negative values.[/sub]"
+                "no-spawn-zone-offsets": "[!]The amount of tiles the no-spawn zone lives from the center of the screen.\n[sub]Can be positive or negative values.[/sub]",
+                "sprite-gen-spawn-layer": "[!]The (object) layer that the sprites will be spawned on."
             },
             "palettes": {
                 "1_rain": "通常の雨|放射能雨|液体スラッジ|ジャングルの雨|廃水（はいすい）|真黒|[!]Silver Pour|[!]Dreamy Drip",

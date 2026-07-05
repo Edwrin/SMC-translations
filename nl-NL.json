@@ -18,6 +18,7 @@
                 "cancel": "Annuleer",
                 "play": "Speel",
                 "load": "Laad",
+                "paste": "Plakken",
                 "go-back": "Terug",
                 "delete": "Verwijder",
                 "rename": "Hernoem",
@@ -31,7 +32,8 @@
                 "detach": "Loskoppelen",
                 "exit": "Verlaten",
                 "editor": "Editor",
-                "click-configure": "Klik om te configureren"
+                "click-configure": "Klik om te configureren",
+                "got-it": "Duidelijk!"
             },
             "time": {
                 "days": {
@@ -247,7 +249,8 @@
                 "restore-points": "Herstel punten",
                 "open-editor": "Bewerken",
                 "view-code": "Code bekijken",
-                "delete": "Verwijderen"
+                "delete": "Verwijderen",
+                "check-level-storage-tips": "Bekijk deze opslagtips"
             },
             "html": {
                 "level-name-placeholder": "Je kan dit later veranderen",
@@ -266,7 +269,14 @@
                 "first-paste-code": "Je moet eerst een level code invoegen.",
                 "unrecognized-code": "Sorry, maar deze level code kan niet worden gelezen.",
                 "outdated-version": "Deze level code is bedoelt voor een nieuwere versie van Super Mario Construct.",
-                "missing-startpoint": "Het startpunt is ongeldig. Laat de level maker weten dat zij een startpunt plaatsen in een bestaande map."
+                "missing-startpoint": "Het startpunt is ongeldig. Laat de level maker weten dat zij een startpunt plaatsen in een bestaande map.",
+                "cloud-backups-header": "Hou je levels veilig met cloud-backups",
+                "smc-saves-levels": "Super Mario Construct slaat je levels lokaal op voor extra gemak.",
+                "external-software-notice": "Let wel op dat externe software (zoals programma's die je schijf opruimen) periodiek de browseropslag kunnen wissen.",
+                "cloud-backup-suggestion": "Om je levels veilig te houden, raden we sterk aan om gebruik te maken van LSS cloud-backups. Een kopie van je level zal op onze server staan, zelfs nog als je apparaat kapot gaat!",
+                "login-instructions": "Om in te loggen op Level Share Square, ga naar het Titelscherm, druk op ⚙️ and ga naar LSS-instellingen.",
+                "lss-logged-in": "Je bent ingelogd met Level Share Square!",
+                "when-logged-in": "Wanneer je bent ingelogd, wordt van elk level die je maakt automatisch een backup gemaakt en gesynchroniseerd!"
             }
         },
         "regular-play": {
@@ -654,6 +664,7 @@
                 "message-sign": "Infobord",
                 "mount-blockade": "Blokkeer bestuurbare objecten",
                 "scale-lift": "Balans Platform",
+                "spring-platform": "Trampoline Platform",
                 "retro-coin": "Retro Munt",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
@@ -722,6 +733,8 @@
                 "fire-bro": "Fire Bro",
                 "ice-bro": "Ice Bro",
                 "podoboo": "Podoboo",
+                "toxiboo": "Toxiboo",
+                "cryoboo": "Cryoboo",
                 "thwomp": "Thwomp",
                 "left-falling-thwomp": "Links-vallende Thwomp",
                 "up-falling-thwomp": "Omhoog-vallende Thwomp",
@@ -876,7 +889,9 @@
                 "small-falling-stalactite": "Kleine Vallende Stalactiet",
                 "amp": "Amp",
                 "fire-snake": "Vuurslang",
+                "ice-snake": "Ijsslang",
                 "bounding-fire": "Springvlam",
+                "bounding-ice": "Springvlam",
                 "small-flame": "Klein vlammetje",
                 "angry-sun": "Boze Zon",
                 "goonie": "Goonie",
@@ -961,6 +976,11 @@
                 "blue-yoshi": "Blauwe Yoshi",
                 "yellow-yoshi": "Gele Yoshi",
                 "bombshell-yoshi": "Nobokon Yoshi",
+                "goomba-shoe": "Goomba-Schoen",
+                "red-goomba-shoe": "Rode Goomba-Schoen",
+                "blue-goomba-shoe": "Blauwe Goomba-Schoen",
+                "yellow-goomba-shoe": "Gele Goomba-Schoen",
+                "bombshell-goomba-shoe": "Nobokon Goomba-Schoen",
                 "lakitus-cloud": "Lakitu's Wolk",
                 "persistent-area-tile": "Persistent Gebieds-Tegel",
                 "area-object-loader": "Gebiedsobjectlader",
@@ -1350,6 +1370,7 @@
                     "dont-unload": "Niet despawnen",
                     "screenwrap-h": "Horizontale schermwikkeling",
                     "screenwrap-v": "Verticale schermwikkeling",
+                    "show-direction-and-countdown": "Geef richting en afteller weer",
                     "scale-lift-sizes-info": "De hoogte van de balans platforms' kabels. De grootte van de linker- en rechter kabels samen zijn de maximale lengte die platformen naar beneden kunnen bewegen.",
                     "scale-lift-prevent-detach": "Voorkom dat platforms losraken"
                 },
@@ -1424,7 +1445,10 @@
                     "frown": "Fronsen",
                     "upset": "Boos",
                     "dance": "Dans",
-                    "run-away": "Wegrennen"
+                    "dance-floating": "Dans (zwevend)",
+                    "run-away": "Wegrennen",
+                    "shocked": "Geschokt",
+                    "shocked-floating": "Geschokt (zwevend)"
                 },
                 "treasure-chest": {
                     "activate-tags": "Activeer tags (opent andere kisten)",
@@ -1452,6 +1476,14 @@
                     "can-toss-player": "Kan speler werpen",
                     "can-toss-player-info": "Ster-Pijlwolken kunnen altijd de speler katapulteren, en zet ze ook in een 'geworpen' staat.\n[sub]Dit zorgt dat spelers ook werken met reguliere Pijlwolken, dus je hebt maar één Ster-Pijlwolk nodig aan het begin van een groep Pijlwolken.[/sub]",
                     "tagging-rotation-info": "De Pijlwolk's draai-beweging kan worden gestart/gestopt met tag-updates."
+                },
+                "darkness-caster": {
+                    "casting-layer": "Licht-werpende laag",
+                    "casting-layer-tooltip": "De laag dat de duisternis op zal werpen.\n[sub]Dit betekend dat de duisternis beneden deze laag gaat.[/sub]"
+                },
+                "goomba-shoe": {
+                    "worn-out-info": "Versleten Goomba Shoenen verdwijnen wanneer de drager de schoen verlaat.",
+                    "is-worn-out": "Is versleten"
                 }
             },
             "enemies": {
@@ -1728,7 +1760,8 @@
                 "vertical-no-spawn": "Verticale no-spawn zone",
                 "no-spawn-zone-offsets": "No-spawn zone verschuivingen",
                 "horizontal-offset": "Horizontale verschuiving",
-                "vertical-offset": "Verticale verschuiving"
+                "vertical-offset": "Verticale verschuiving",
+                "spawn-layer": "Spawn-laag"
             },
             "html": {
                 "intensity": "Laag|Middelmatig|Hoog",
@@ -1737,7 +1770,8 @@
                 "opacity-options": "25% (Atmosferisch)|50%|75%|100% (Ondoorzichtig)",
                 "affected-audio": "Alleen geluiden|Alleen muziek|Beide geluiden & muziek",
                 "wind-types": "Winderig|Opdringerig|Storm|Orkaan|Turbo Tempest",
-                "sprite-gen-target-options": "Geen doel|Speler|Middelpunt|Willekeurige positie"
+                "sprite-gen-target-options": "Geen doel|Speler|Middelpunt|Willekeurige positie",
+                "first-object-layer": "Eerste OBJ-laag"
             },
             "tooltips": {
                 "name": "Een naam om dit effect te identificeren, puur in de editor.",
@@ -1775,7 +1809,8 @@
                 "seconds-effect-plays-early": "De tijd dat het explosie-effect speelt voordat de sprites worden gespawned in de cyclus.\n[sub]Let op: dit zou niet minder moeten zijn dan de cyclus-vertraging.[/sub]",
                 "sprite-gen-target-location": "Sommige projectielen die spawnen kunnen zich richten op een bepaald gebied op het scherm.\nVoor horizontaal-bewegende sprites (bijv. Goombas), is dit alleen van toepassing als ze van boven- of onderaf worden gespawned.",
                 "no-spawn-zones": "No-Spawn zones zijn de gebieden, in tegels, waar sprites niet kunnen spawnen. Dit gebied is in het midden van de schermrand.\n[sub]Laat op 0 staan om geen no-spawn zone te hebben.[/sub]",
-                "no-spawn-zone-offsets": "Het aantal in tegels dat de no-spawn zone zich bevindt vanaf het midden van de schermrand.\n[sub]Kan beide positief of negatief zijn.[/sub]"
+                "no-spawn-zone-offsets": "Het aantal in tegels dat de no-spawn zone zich bevindt vanaf het midden van de schermrand.\n[sub]Kan beide positief of negatief zijn.[/sub]",
+                "sprite-gen-spawn-layer": "De (object) laag dat de sprites op zullen spawnen."
             },
             "palettes": {
                 "1_rain": "Standaard Regen|Radioactief afval|Slushy Slurry|Oerwoud's Sap|Riool-mengelmoes|Diepe Duisternis|Zilver Giet|Dromerig Druppeltjes",

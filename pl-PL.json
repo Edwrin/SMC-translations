@@ -18,6 +18,7 @@
                 "cancel": "Zakończ",
                 "play": "Zagraj",
                 "load": "Wczytaj",
+                "paste": "[!]Paste",
                 "go-back": "Powrót",
                 "delete": "Usuń",
                 "rename": "Zmień nazwę",
@@ -28,10 +29,11 @@
                 "create": "Twórz",
                 "edit": "Edytuj",
                 "remove": "Usuń",
-                "detach": "[!]Detach",
+                "detach": "Odczep",
                 "exit": "Wyjdź",
                 "editor": "Edytor",
-                "click-configure": "Kliknij by konfigurować"
+                "click-configure": "Kliknij by konfigurować",
+                "got-it": "[!]Got it!"
             },
             "time": {
                 "days": {
@@ -279,7 +281,8 @@
                 "restore-points": "Punkty przywracania",
                 "open-editor": "Otwórz edytor",
                 "view-code": "Pokaż kod",
-                "delete": "Usuń"
+                "delete": "Usuń",
+                "check-level-storage-tips": "[!]Check level storage tips"
             },
             "html": {
                 "level-name-placeholder": "Można to potem zmienić",
@@ -298,7 +301,14 @@
                 "first-paste-code": "Należy najpierw wprowadzić kod poziomu.",
                 "unrecognized-code": "Kod poziomu nie został rozpoznany.",
                 "outdated-version": "Ten kod poziomu jest przeznaczony dla nowszej wersji Super Mario Construct.",
-                "missing-startpoint": "Start poziomu nie działa. Powiadom twórce aby położył start w istniejącej mapie."
+                "missing-startpoint": "Start poziomu nie działa. Powiadom twórce aby położył start w istniejącej mapie.",
+                "cloud-backups-header": "[!]Keeping your levels safe with cloud back-ups",
+                "smc-saves-levels": "[!]Super Mario Construct saves your levels locally for convenience.",
+                "external-software-notice": "[!]However, external software (like disk cleanup software) can periodically erase browser storage.",
+                "cloud-backup-suggestion": "[!]To keep your levels safe, using LSS cloud backups is highly recommended. It will keep a copy of your level on our servers, even if your device breaks!",
+                "login-instructions": "[!]To login to Level Share Square, go to the Title Screen, press ⚙️ and go to LSS-settings.",
+                "lss-logged-in": "[!]You're logged into Level Share Square!",
+                "when-logged-in": "[!]When logged in, every new level you make will automatically be backed-up and synchronized on our servers!"
             }
         },
         "regular-play": {
@@ -354,7 +364,7 @@
                 "ghostEnemies": "Duchy",
                 "artillery": "Artyleria",
                 "moles": "Krety i kretowaci",
-                "chucks": "Chucki i związane rzucane rzeczy",
+                "chucks": "Sebki i związane rzucane rzeczy",
                 "plantEnemies": "Roślinni wrogowie",
                 "dinoEnemies": "Dinozaury",
                 "fieryEnemies": "Prądowi i Ogniowi",
@@ -368,7 +378,7 @@
                 "bgc-settings": "Zmień kolor/gradient tła",
                 "music-settings": "Edytuj muzykę",
                 "level-desc": "Zmień opis poziomu",
-                "applets": "[!]Applets",
+                "applets": "Apletusie",
                 "level-stats": "Informacje poziomu i statystyki",
                 "toolbar-settings": "Ustawienia paska narzędzi",
                 "backup-settings": "Ustawienia Back-up'a"
@@ -504,7 +514,7 @@
                 "edit-bg-palette": "Edytuj paletę tła",
                 "bg-loop-notice": "Większość teł będzie się zapętlać tylko poziomo, ale niektóre mogą także pionowo (n.p. wnętrza zamku). Możesz dostosować to ustawienie tutaj.",
                 "playtest-music": "Przetestuj muzykę",
-                "text-formatting": "[scale=0.8]Możesz użyc tych BBCodes by zmienić wygląd tekstu.\n\n[color=#58A8F0][[][/]color=#cc0000][/color][color=#cc0000]kolor tekstu[/color][color=#58A8F0][[][/]/color][/color]\n[color=#58A8F0][[][/]background=#ff00ff][/color][background=#ff00ff]kolor tła[/background][color=#58A8F0][[][/]/background][/color]\n\n[color=#58A8F0][[][/]scale=0.5][/color][scale=0.5]Rozmiar tekstu[/scale][color=#58A8F0][[][/]/scale][/color]\n[/offsety][/scale]",
+                "text-formatting": "[scale=0.8]Możesz użyć tych BBKodów by zmienić wygląd tekstu.\n\n[color=#58A8F0][[][/]color=#cc0000][/color][color=#cc0000]kolor tekstu[/color][color=#58A8F0][[][/]/color][/color]\n[color=#58A8F0][[][/]background=#ff00ff][/color][background=#ff00ff]kolor tła[/background][color=#58A8F0][[][/]/background][/color]\n\n[color=#58A8F0][[][/]scale=0.5][/color][scale=0.5]Rozmiar tekstu[/scale][color=#58A8F0][[][/]/scale][/color]\n[/offsety][/scale]",
                 "favorites-bar": "Pasek ulubionych pozwala na używanie często używanych obiektów. Jest on zawsze dostępny w pasku narzędzi, ale można wyłączyć jego obecność podczas edycji.\n[scale=0.75][color=#CCCCCC]Klawisz do włączania/wyłączania tej funkcji: F[/color][/scale]",
                 "mini-toolbar": "Ten mniejszy pasek narzędzi jest zawsze widoczny gdy jest włączony i zezwala na szybką zmianę warstwy.\n[scale=0.75][color=#CCCCCC]Klawisz do włączania/wyłączania tej funkcji: M[/color][/scale]",
                 "inactive-layer-opacity": "Podczas pracy na jednej z warstw płytek, inne warstwy staną się półprzezroczyste. Wprowadzenie wartości 100 wyłączy tę funckę, wprowadzenie wartości 0 sprawi, że nieużywane obecnie warstwy staną się niewidzialne.",
@@ -514,8 +524,8 @@
                 "hold-drag-resize": "Przytrzymaj i przeciągnij zmienić rozmiar"
             },
             "html": {
-                "destination-name-example": "N.p. 'wyjście z jaskini'",
-                "entryway-name-example": "N.p. 'wejście do zamku'",
+                "destination-name-example": "Np. 'wyjście z jaskini'",
+                "entryway-name-example": "Np. 'wejście do zamku'",
                 "darkness-values": "Wyłączone|25% (Delikatna ciemność)|50%|75%|100% (Całkowita ciemność)",
                 "screen-size-presets": "Domyślnie|Jak w starych wersjach|jak na SNESie|jak na GBA",
                 "bg-loop-methods": "Wyłączone|Zapętl poziomo|Zapętl pionowo|Zapętl wszystko|Nie zapętlaj|Tylko poziomo|Tylko pionowo",
@@ -532,7 +542,7 @@
                 "electric-tiles": "Te elektryczne płytki mogą zranić większość ogranicznych stworzeń. Metaliczne sprite'y mogą na chwile wchłonąć elektyczność, Metal Mario też!",
                 "escalators": "Notka: każda winda musi mieć taką samą pochyłą płyke, i mieć mechaniczne płytki po dwóch stronach, na początku i końcu.",
                 "scenery-doors": "Uwaga: to są dekoracyjne drzwi. Jeśli szukasz drzwi użytkowych, przejdź do menu Przejść wciskając ikonkę Rur na dole.",
-                "scenery-doors-short": "Scenery doors",
+                "scenery-doors-short": "Drzwi scenerii",
                 "advanced-platform": "Zaawansowana Platforma\n[scale=0.75]Te platformy są konfigurowalne! Te płytki koło nich wpływają na ich zachowanie.[/scale]",
                 "persistent-area-tile": "Pozostaw obiekty wczytane w jednym obszarze",
                 "area-object-loader": "Wczytaj od początku obiekty w jednym obszarze",
@@ -546,18 +556,18 @@
                 "background-color-changer": "Aktualizuj kolor tła, odrazu lub po czasie",
                 "background-gradient-changer": "Aktualizuj lub ustaw gradient dla tła",
                 "music-changer": "Zmień, zacznij lub zatrzymaj muzykę mapy, z fade'ami",
-                "cheep-cheeps": "Pisk Piski\n[scale=0.75]Pisk Piski mają różne ruchy SI. Najedź na nie kursorem by sprawdzić![/scale]",
+                "cheep-cheeps": "Pisk Piski\n[scale=0.75]Ryb-Rybek mają różne ruchy SI. Najedź na nie kursorem by sprawdzić![/scale]",
                 "more-aquatic-enemies": "Więcej wodnych wrogów",
                 "stretch-tiles": "[scale=0.75]Przewiń w dół by zobaczyć więcej obiektów![/scale]",
                 "artillery-tiles": "Dodatkowe powiązane płytki\n[scale=0.75]To są płytki do użycia z obiektami powyżej.[/scale]",
-                "king-bill": "Bill Królewski\n[scale=0.75]Ten ogromny Bill Pocisk może niszczyć twarde klocki na swojej drodze z łatwością i nie da się go pokonać![/scale]",
+                "king-bill": "Król-Bull\n[scale=0.75]Ten ogromny Kul-Bill może niszczyć Kamienne Bloczki na swojej drodze z łatwością i nie da się go pokonać![/scale]",
                 "container-mole-holes": "Kontener Krecich nor",
-                "chucks": "Chucki mają różne tryby SI, tryb goniący(Chuck Łokietnik), tryb rzucający(Chuck Rzutnik), a nawet można aktywować tagi!",
+                "chucks": "Sebki mają różne tryby SI, tryb goniący(Szarżujący Sebek), tryb rzucający(Rzucający Sebek), a nawet można aktywować tagi!",
                 "numeric-layer-name-error": "Przepraszamy, nazwa warstwy nie może mieć tylko numerów.",
                 "duplicate-layer-name-error": "O kurcze! Nie możesz zduplikować nazwy warstwy.",
                 "view-map-code": "To jest kod mapy: zawiera on wszystkie dane na temat twojej mapy. Możesz go użyć by stworzyć identyczną kopię jednej z map na innym poziomie, lub stworzyc duplikat obecnego poziomu.",
                 "import-map-code": "Wprowadź kod mapy. Można je zdobyć wciskając ikonkę Dzielenia się na karcie mapy.",
-                "applet-info": "[!]Applets are menus that can be opened from various areas of the editor.\nThe ones pertaining to level data can be found here."
+                "applet-info": "Apletusie to menusy, które można otworzyć z różnych miejsc w edytorze.\nEe, chłopaki te od informacji to są tam."
             },
             "sprite-tooltips": {
                 "empty-block": "Pusty bloczek",
@@ -686,6 +696,7 @@
                 "message-sign": "Wiadomościo-Znak",
                 "mount-blockade": "Blokada ujeżdżalnych",
                 "scale-lift": "Balsanso-Platforma",
+                "spring-platform": "[!]Spring Platform",
                 "retro-coin": "Moneta dość retro",
                 "goomba": "Gumba",
                 "galoomba": "Galumba",
@@ -739,7 +750,7 @@
                 "piranha-plant": "Kwiat Piranium",
                 "red-piranha-plant": "Czerwony Kwiat Piranium",
                 "venus-fire-trap": "Ogniokwiat Piranium",
-                "red-venus-fire-trap": "Czerwony Ognio Piranio-Kwiat",
+                "red-venus-fire-trap": "Czerwony Ogniokwiat Piranium",
                 "thorny-piranha-plant": "Drażliwy Kwiat Piranium",
                 "thorny-venus-fire-trap": "Drażliwy Ogniokwiat Piranium",
                 "muncher": "Chrupak",
@@ -754,6 +765,8 @@
                 "fire-bro": "Ogieńziom",
                 "ice-bro": "Lódziom",
                 "podoboo": "Lawobąbel",
+                "toxiboo": "ToksyBuu",
+                "cryoboo": "Ducho-Mrożek",
                 "thwomp": "Przygmiot",
                 "left-falling-thwomp": "Lecący w Lewo Przygmiot",
                 "up-falling-thwomp": "Lecący w Górę Przygmiot",
@@ -908,7 +921,9 @@
                 "small-falling-stalactite": "Mały Spadający Stalaktyt",
                 "amp": "Wzmak",
                 "fire-snake": "Lawowąż",
+                "ice-snake": "[!]Ice Snake",
                 "bounding-fire": "Granico-gień",
+                "bounding-ice": "[!]Boundin' Ice",
                 "small-flame": "Mały płomień",
                 "angry-sun": "Słońce Zagłady",
                 "goonie": "Głuptak",
@@ -993,6 +1008,11 @@
                 "blue-yoshi": "Niebieski Yoshi",
                 "yellow-yoshi": "Żółty Yoshi",
                 "bombshell-yoshi": "Wybuchowy Yoshi",
+                "goomba-shoe": "[!]Goomba Shoe",
+                "red-goomba-shoe": "[!]Red Goomba Shoe",
+                "blue-goomba-shoe": "[!]Blue Goomba Shoe",
+                "yellow-goomba-shoe": "[!]Yellow Goomba Shoe",
+                "bombshell-goomba-shoe": "[!]Bombshell Goomba Shoe",
                 "lakitus-cloud": "Chmura Lakitu",
                 "persistent-area-tile": "Płytka długotrwałości obiektów",
                 "area-object-loader": "Pre-loader obiektów w arenie",
@@ -1001,7 +1021,7 @@
                 "darkness-caster": "Źródło Ciemności",
                 "invisible-sprite-spawner": "Niewidzialny Spawner Obiektów",
                 "current-generator": "Obecny Generator",
-                "on-off-tag-block": "WŁ/WYŁ Tag Klocek",
+                "on-off-tag-block": "Tagowany Przełącznik Bloczek",
                 "direction-changer-tile": "Zmiana Kierunku Platformy",
                 "platform-action-tile": "Akcja Platformy",
                 "speed-changer-tile": "Zmiana Prędkości Platformy",
@@ -1268,13 +1288,13 @@
                 },
                 "tooltips": {
                     "amount-in-block": "Ilość obiektów w klocku.",
-                    "amount-in-block-optional": "Jeśli klocek ma przypisany obiekt, będzie on przechowywał maksymalną ilość obiektów w środku.",
-                    "timer-info": "Uruchom zegar podczas pierwszego uderzenia. Gdy osiągnie 0, klocek będzie zawierał tylko 1 obiekt.\n[scale=0.75][color=#CCCCCC]Pozostaw 0 by wyłączyć zegar.[/color][/scale]",
+                    "amount-in-block-optional": "Jeśli bloaczek ma przypisany obiekt, będzie on przechowywał maksymalną ilość obiektów w środku.",
+                    "timer-info": "Uruchom zegar podczas pierwszego uderzenia. Gdy osiągnie 0, bloczek będzie zawierał tylko 1 obiekt.\n[scale=0.75][color=#CCCCCC]Pozostaw 0 by wyłączyć zegar.[/color][/scale]",
                     "progressive-info": "Gdy Mario jest mały, zawsze dostanie grzybek, bez względu na wybraną znajdźke.",
-                    "star-chainer-info": "Gdy Mario uderzy klocek będąc niezniszczalnym (gwiazdka), dostanie kolejną gwiazdkę, bez względu na to co jest w klocku.",
-                    "invisible-info": "Klocek będzie niewidoczny, dopóki się go nie uderzy.",
-                    "coins-before-item-info": "Klocek wypuści podaną ilość monet przed wypuszczeniem ustawionej Znajdźki.",
-                    "object-breaks-nearby-player-info": "Gdy gracz zbliży się do klocka, obiekt wyskoczy ze środka. Gdy [color=#4CFF00]zaznaczone[/color], wartość zegara będzie użyta do długości trwania animacji.",
+                    "star-chainer-info": "Gdy Mario uderzy bloczek będąc niezniszczalnym (gwiazdka), dostanie kolejną gwiazdkę, bez względu na to co jest w klocku.",
+                    "invisible-info": "Bloczek będzie niewidoczny, dopóki się go nie uderzy.",
+                    "coins-before-item-info": "Bloczek wypuści podaną ilość monet przed wypuszczeniem ustawionej Znajdźki.",
+                    "object-breaks-nearby-player-info": "Gdy gracz zbliży się do bloczka, obiekt wyskoczy ze środka. Gdy [color=#4CFF00]zaznaczone[/color], wartość zegara będzie użyta do długości trwania animacji.",
                     "tag-block-toggle": "Po uderzeniu tego klocka tagi się włączą lub wyłączą.\n[scale=0.75][color=#CCCCCC]Na przykład, można włączyć podwodne prądy tagiem '[color=#58A8F0]switchCurrent[/color]' wprowadzając '[color=#58A8F0]switchCurrent[/color]' w tym polu.[/color][/scale]"
                 }
             },
@@ -1289,7 +1309,7 @@
                     "launch-vector": "Wektor wystrzału {0}",
                     "random-vector": "+ przypadkowy wektor {0}",
                     "cosmetic-notice": "Oprócz większego hitbox'a, zmiany są kosmetyczne.",
-                    "object-cap": "Maksymalna ilość obiektów wyrzucona przez klocek, które mogą być jednocześnie czynne. Po pokonaniu wyrzuconych przez dany klocek wrogów, pojawią się kolejni.",
+                    "object-cap": "Maksymalna ilość obiektów wyrzucona przez bloczek, które mogą być jednocześnie czynne. Po pokonaniu wyrzuconych przez dany bloczek wrogów, pojawią się kolejni.",
                     "delays": "Opóźnienie pojawiania się to czas w sekundach pomiędzy każdym cyklem pojawiania się. Opóźnienie startu to czas w sekundach przed rozpoczęciem cyklu.",
                     "launch-velocity": "Prędkość obiektów wyrzucanych z Złopudełka.",
                     "random-velocity": "Opcjonalna nietypowa prędkość dodana do bazowej prędkości (użyj ujemnych liczb by ją odjąć).",
@@ -1316,7 +1336,7 @@
                     "remove-default-base-tile": "Usuń domyślną płytkę bazową",
                     "flagpole-skip-prevention": "Zapobieganie ominięcia Flagi ze Słupem",
                     "extend-hitbox-upwards": "Rozszerz hitbox taśmy mety w górę",
-                    "flagpole-hard-block": "Czy słupek mety ma autmatycznie stworzyć twardy blok.",
+                    "flagpole-hard-block": "Czy słupek mety ma automatycznie stworzyć Kamienny Bloczek.",
                     "flagpole-skip-notice": "Automatycznie zapobiega przeskakiwaniu nad słupkiem mety przez gracza tworząc niewidzialną barierę na górze (wysokość 15 płytek).",
                     "rightwards-pole-layering": "Warstwa, na której znajdzie się prawa część słupka. Zwykle nad graczem i innymi obiektami.\n[sub]Można zmienić warstwę by pasował ze scenerią.[/sub]",
                     "extend-hitbox-upwards-info": "Gdy gracz przeskoczy ponad Bramo-Metę (do wysokości 15 płytek), meta będzie i tak aktywowana.\n[sub]Płytki nad taśmą mety mogą temu zapobiedz.[/sub]",
@@ -1382,6 +1402,7 @@
                     "dont-unload": "Nie unloaduj",
                     "screenwrap-h": "Ekrano-Oplatanie poziome",
                     "screenwrap-v": "Ekrano-Oplatani pionowe",
+                    "show-direction-and-countdown": "[!]Show direction and countdown",
                     "scale-lift-sizes-info": "Wysokość lin Balanso-Platformy. Długość lewej i prawej liny razem wziętych określa maksymalne zniżenie platformy.",
                     "scale-lift-prevent-detach": "Zapobiegnij od odczepania się Balanso-Platformy"
                 },
@@ -1445,10 +1466,10 @@
                     "twirl-after-dialogue": "Obrót po dialogu",
                     "wander-around": "Spaceruje po okolicy",
                     "wander-walk-swim": "Wędruje (Chodzi/Pływa/Gada/Pełny Serwis!)",
-                    "chuckster-left": "Chuck Podrzutowicz(lewo)",
-                    "chuckster-right": "Chuck Podrzutowicz(prawo)",
-                    "chuckster-up": "Chuck Podrzutowicz(up)",
-                    "chuckster-patrol": "Chuck Podrzutowicz(spaceruje po okolicy)",
+                    "chuckster-left": "Czesiek Podrzutowicz(lewo)",
+                    "chuckster-right": "Czesiek Podrzutowicz(prawo)",
+                    "chuckster-up": "Czesiek Podrzutowicz(up)",
+                    "chuckster-patrol": "Czesiek Podrzutowicz(spaceruje po okolicy)",
                     "sit-face-left": "Siedzi (twarzą w lewą stronę)",
                     "sit-face-right": "Siedzi (twarzą w prawą stronę)",
                     "float-in-place": "Lewituje (w jednym miejscu)",
@@ -1456,7 +1477,10 @@
                     "frown": "Nie tęga mina",
                     "upset": "Denerwuje się",
                     "dance": "Tańczy",
-                    "run-away": "Spier...Spada stąd"
+                    "dance-floating": "[!]Dance (floating)",
+                    "run-away": "Spier...Spada stąd",
+                    "shocked": "[!]Shocked",
+                    "shocked-floating": "[!]Shocked (floating)"
                 },
                 "treasure-chest": {
                     "activate-tags": "Aktywne tagi (Otwiera skrzynie)",
@@ -1484,13 +1508,21 @@
                     "can-toss-player": "Może cie podrzucić, ale zabawa, WAHOO!",
                     "can-toss-player-info": "Gwiazdkowe Sztrzałko-Chmury zawsze będą na ciebie działały, i możesz włączyć ich tryb podrzucaia.\n[sub]Zwykłe Strzałko-Chmury też się w to wliczają, więc wystarczy jedna Gwiezdna do łańczucha.[/sub]",
                     "tagging-rotation-info": "Rotacje Sztrzałko-Chmury można zatrzymać tagami."
+                },
+                "darkness-caster": {
+                    "casting-layer": "[!]Casting layer",
+                    "casting-layer-tooltip": "[!]The layer that the darkness will be casted on.\n[sub]This means the darkness will go behind this layer.[/sub]"
+                },
+                "goomba-shoe": {
+                    "worn-out-info": "[!]Worn-out Goomba Shoes disappear when the rider leaves the shoe.",
+                    "is-worn-out": "[!]Is worn-out"
                 }
             },
             "enemies": {
                 "chucks": {
-                    "whistling-chuck-info": "Poza alarmowaniem i budzeniem wrogów, Chucki Gwizdniki mogą aktywować tagi na dole!",
-                    "idle-until-stomped": "Stoi bezczynnie i czeka aż naskoczysz a potem cóż. Chuck Sp.Z.O.O nie jest odpowiedzialna za uszczerbek na zdrowiu",
-                    "idle-until-stomped-info": "Stoi bezczynnie i czeka aż naskoczysz (ale nie zabijesz)a potem cóż. Chuck Sp.Z.O.O nie jest odpowiedzialna za uszczerbek na zdrowiu"
+                    "whistling-chuck-info": "Poza alarmowaniem i budzeniem wrogów, Gwizdające Sebki mogą aktywować tagi na dole!",
+                    "idle-until-stomped": "Stoi bezczynnie i czeka aż naskoczysz a potem cóż. Sebek Sp.Z.O.O nie jest odpowiedzialna za uszczerbek na zdrowiu",
+                    "idle-until-stomped-info": "Stoi bezczynnie i czeka aż naskoczysz (ale nie zabijesz)a potem cóż. Sebek Sp.Z.O.O nie jest odpowiedzialna za uszczerbek na zdrowiu"
                 }
             },
             "bosses": {
@@ -1703,10 +1735,10 @@
                 "vol-f": "Redukcja Audio",
                 "muffle-f": "Wygłuszone Audio",
                 "wind-g": "Generator wiatru",
-                "sprite-g": "[!]Sprite generator",
-                "bullet-g": "[!]Bullet Generator (Preset)",
-                "cheep-g": "[!]Cheep Generator (Preset)",
-                "meteor-g": "[!]Meteor Generator (Preset)",
+                "sprite-g": "Generator sprite'ów",
+                "bullet-g": "Generator Kul-Billów (Preset)",
+                "cheep-g": "Generator Ryb-Rybeków (Preset)",
+                "meteor-g": "Generator Meteorytów (Preset)",
                 "Water-l": "Woda",
                 "OWater-l": "Oceanowa Woda(Klasyczna)",
                 "MWater-l": "Oceanowa Woda (Współczesna)",
@@ -1742,25 +1774,26 @@
                 "only-affect-player": "Na gracza tylko działa",
                 "buildup": "Nagromadzenie",
                 "cooldown": "Przerwa",
-                "spawn-directions": "[!]Spawn directions",
-                "cycle-delay": "[!]Cycle delay",
-                "spawns-in-cycle": "[!]Spawns in cycle",
-                "spawn-delay-in-cycle": "[!]Spawn delay (in-cycle)",
-                "total-sprites": "[!]Total sprites",
-                "max-sprites-at-once": "[!]Max sprites\n[color=#CCCCCC](At once)[/color]",
-                "spawn-margins": "[!]Spawn margins",
-                "horizontal-margin": "[!]Horizontal margin",
-                "vertical-margin": "[!]Vertical margin",
-                "explosion-effect": "[!]Explosion effect",
-                "create-explosion-effect": "[!]Create explosion effect",
-                "seconds-effect-plays-early": "[!]Seconds effect plays early",
-                "sprite-gen-target-location": "[!]Target location [color=#CCCCCC](if supported)[/color]",
-                "no-spawn-zones": "[!]No-Spawn Zones",
-                "horizontal-no-spawn": "[!]Horizontal no-spawn zone",
-                "vertical-no-spawn": "[!]Vertical no-spawn zone",
-                "no-spawn-zone-offsets": "[!]No-spawn zone offsets",
-                "horizontal-offset": "[!]Horizontal offset",
-                "vertical-offset": "[!]Vertical offset"
+                "spawn-directions": "Kierunek spawnowania",
+                "cycle-delay": "Opóźnienie cyklu",
+                "spawns-in-cycle": "Cykliczne sprawnowanie",
+                "spawn-delay-in-cycle": "Cykliczne sprawnowanie z opóźnieniem",
+                "total-sprites": "Liczba sprite'ów",
+                "max-sprites-at-once": "Maksymalna liczba sprite'ów\n[color=#CCCCCC](za jednym razem)[/color]",
+                "spawn-margins": "Marginesy spawnowania",
+                "horizontal-margin": "Poziome",
+                "vertical-margin": "Pionowe",
+                "explosion-effect": "Efekt eksplozji",
+                "create-explosion-effect": "Stwóz efekt eksplozji",
+                "seconds-effect-plays-early": "Sekundy o jakie wcześniej eksplozja wydaje dźwięk",
+                "sprite-gen-target-location": "Lokacja docelowa [color=#CCCCCC](gdy jest wspierana)[/color]",
+                "no-spawn-zones": "Strefa Żadnych Spawnów",
+                "horizontal-no-spawn": "Poziome",
+                "vertical-no-spawn": "Pionowe",
+                "no-spawn-zone-offsets": " Offsety Strefy Żadnych Spawnów",
+                "horizontal-offset": "Poziome",
+                "vertical-offset": "Pionowe",
+                "spawn-layer": "Warstwa Spawnowania"
             },
             "html": {
                 "intensity": "Słaba|Średnia|Mocna",
@@ -1769,7 +1802,8 @@
                 "opacity-options": "25% (Ambientowy)|50%|75%|100% (Nieprzezroczysty)",
                 "affected-audio": "Tylko dźwięki|Tylko muzyka|To i to",
                 "wind-types": "Przewiewny|Natarczywy|Sztor|Huragan|Turbo Burza",
-                "sprite-gen-target-options": "[!]No target|Player|Center|Random position"
+                "sprite-gen-target-options": "Bez celu|Gracz|Środek|Przypadkowe miejsce",
+                "first-object-layer": "Pierwsza Warstwa Objektu"
             },
             "tooltips": {
                 "name": "Nazwa tego efektu (ważna tylko w celu edycji).",
@@ -1798,20 +1832,21 @@
                 "wind-cooldown": "Czas w sekundach do przerwy w wiatrach.",
                 "wind-cycle-delay": "Czas w sekundach miedzy cyklami wiatru.",
                 "wind-repeats": "Ilość powtórzeń cyklu wiatru. Opóźnienie pomiędzy podmuchami jest takie samo jak czas trwania.",
-                "sprite-gen-cycle-delay": "[!]The delay between each spawn cycle, in seconds.\n[sub]Multiple sprites can be spawned per cycle! See the options below.",
-                "spawns-in-cycle": "[!]The amount of sprites that are spawned per cycle.\n[sub]Use the option below to specify an optional delay between these sprite spawns.[/sub]",
-                "spawn-delay-in-cycle": "[!]If multiple sprites are spawned per cycle, this is the time (in seconds) between them spawning in.\n[sub]Not to be confused with cycle delay, see above.[/sub]",
-                "total-sprites": "[!]Total sprites that can be spawned (by this generator) before it automatically stops.\n[sub]Leave 0 for an infinite amount.[/sub]",
-                "amount-of-sprites": "[!]The amount of sprites (spawned by this generator) that can be active at a time.\n[sub]The generator pauses while this limit is reached.\nEnter 0 for no limit.[/sub]",
-                "spawn-margins": "[!]The amount of tiles the sprites can spawn from beyond the screen edges (in either direction).\n[sub]Note: be careful with large numbers, sprites can instantly despawn (unless Persistent Area Tiles are used).[/sub]",
-                "seconds-effect-plays-early": "[!]The time that the explosion effect plays out before the actual sprites are spawned in the cycle.\n[sub]Note: this should not be less than the cycle delay.[/sub]",
-                "sprite-gen-target-location": "[!]Some projectiles are able to spawn in targetting a specific position on the screen.\nFor horizontal moving sprites (e.g. Goombas), this only applies if spawning from the top or bottom screen edge.",
-                "no-spawn-zones": "[!]No-Spawn zones is the area, in tiles, that sprites can't spawn at. This zone is in the middle of the screen edge.\n[sub]Leave 0 to not have a no-spawn zone.[/sub]",
-                "no-spawn-zone-offsets": "[!]The amount of tiles the no-spawn zone lives from the center of the screen.\n[sub]Can be positive or negative values.[/sub]"
+                "sprite-gen-cycle-delay": "Opóźnienie w cyklach sprawnowania, w sekundach.\n[sub] Wiele sprite'ów można zespawnować co cykl! Więcej informacji niżej więc kop w dół kop górniku.",
+                "spawns-in-cycle": "Ilość sprite'ów co cykl.\n[sub]Użyj opcji na dole, aby wybrać opcjonalne opóźnienie między sprawnowawniem.[/sub]",
+                "spawn-delay-in-cycle": "Jeśli wiele sprite'ów jest sprawnowane co cykl, ten czas to wyznacznik(w sekundach) między sprawnowaniem.\n[sub]Nie mylić z opóźnieniem cyklu, u góry masz panie pilocie.[/sub]",
+                "total-sprites": "Ilość sprite'ów jakie można zespawnować(przez generator)zanim skończy się samo przez się.\n[sub]Jeśli na nieskończoność jest chrabka to 0 dać trzeba.[/sub]",
+                "amount-of-sprites": "Ilość sprite'ów jakie można zespawnować(przez generator), które są aktywne za jednym razem.\n[sub]Generator zatrzymuje się gdy jest limit.\nJak limitów nie chcesz mieć to 0 ustawić musisz jeśli masz taką cheć.[/sub]",
+                "spawn-margins": "Ilość płytek sprite'ów które można zespawnować zpoza ekranu(z byle której strony).\n[sub]Notka: uważaj sobie z dużymi numreami, sprite'y się mogą po prostu zdespawnować (no chyba że pozostawisz obiekty wczytane w jednym obszarze).[/sub]",
+                "seconds-effect-plays-early": "Czas w jakim efekt eksplozji pojawia się przed sprite'em z cyklu.\n[sub]Notka: to nie powinno być mniejsze niż opóźnienie cyklu milordzie.[/sub]",
+                "sprite-gen-target-location": "Niektóre strzały da się zespawnować celując w konkretne miejsce na ekranie.\nJeśli chodzi o poziomo ruchliwe sprite'y(np. Gumby), to działa jedynie od góry lub dołu ekranu.",
+                "no-spawn-zones": "Strefa Żadnych Spawnów to obszar, na którym nie da się sprawnować płytek. Ta strefa to środek końca ekranu.\n[sub]Pozostał jako 0 a nie będziesz cie takie coś ograniczało.[/sub]",
+                "no-spawn-zone-offsets": "Ilość płytek jako odległość od Strefy Żadnych Spawnów od środka ekranu.\n[sub]Wartości mogą być pozytywne lub negatywne(niech chce już być dłużej negatywny).[/sub]",
+                "sprite-gen-spawn-layer": "Warstaw obiektu na którym będą sprite'y sprawnowane."
             },
             "palettes": {
                 "1_rain": "Domyślny deszcz|Toksyczny Kwas|Lepki Szlam|Dżunglo-sok|Zupa Nieczystości|Głęboka Czerń|Srebrny Płyn|Senne zagłębnienie",
-                "2_rain": "Domyślny deszcz|Toksyczny Kwas|Lepki szlam|Lodowaty Cryofluid|Czekoladowy Napój|Plamy Oleju|Złoty Deszcz|Stopiony Metal|Trująca Maź|Monochroniczna Mikstura",
+                "2_rain": "Domyślny deszcz|Toksyczny Kwas|Lepki szlam|Lodowaty Mrozopłyn|Czekoladowy Napój|Plamy Oleju|Złoty Deszcz|Stopiony Metal|Trująca Maź|Monochroniczna Mikstura",
                 "1_snow": "Domyślny śnieg",
                 "2_snow": "Domyślny śnieg|Zimowa Mięta|Lodowato|Lodowata Biel|Truskawkowa Czerwień|Nocna Zamieć|Mrożona Lemoniada",
                 "1_sand": "Domyślna Burza Piaskowa|Ostra Przyprawa|Kurzący Ciąg|Złota Wichura|Mroczne Piaski|Obfity Popiół|Zachód Słońca|Oaza Wiatru",
@@ -1824,7 +1859,7 @@
             },
             "text": {
                 "duplicate-name": "Ta nazwa jest już w użyciu. Ustaw inną nazwę.",
-                "drag-sprite-onto-menu": "[!]Drag a (compatible) sprite onto this menu to insert it in the generator!"
+                "drag-sprite-onto-menu": "Przenieś (wspierane) sprite'y do menu żeby wrzucić je do generatora, tak to takie proste!"
             }
         },
         "screen-menus": {
@@ -1936,8 +1971,8 @@
                 "tile-rotation-ship-1": "Śruby, kolce, gąsienice czołgów i śmigłą można obracać używając CTRL!",
                 "tile-rotation-ship-2": "Śruby, gąsienice czołgów i śmigłą można obracać używając CTRL!",
                 "icy-palette": "Ta paleta jest jakaś lodowata, chcesz fizyke jak gwiazdy tańczą na lodzie dla sprite'ów?",
-                "obj-digging-chuck": "Chucki Wkopiącodziuniki mogą kopać ziemie i wykopać głazy, meteoryty albo kule śnieżne. Nie kładź ich tam gdzie jest krzywo, przecież oni umieją kopać tylko na równym terenie.",
-                "obj-whistling-chuck": "Chucki Gwizdnik może obudzić śpiących wrogów, a także uwolnić sprite'y z krecich nor i Obroto-Klocków . Mogą też aktywować tagi!"
+                "obj-digging-chuck": "Kopiące Sebki mogą kopać ziemie i wykopać głazy, meteoryty albo kule śnieżne. Nie kładź ich tam gdzie jest krzywo, przecież oni umieją kopać tylko na równym terenie.",
+                "obj-whistling-chuck": "Gwizdający Sebek może obudzić śpiących wrogów, a także uwolnić sprite'y z krecich nor i Obrotowe Bloczki . Mogą też aktywować tagi!"
             },
             "image-manager": {
                 "bg-selector": "Wybierałka tła",
@@ -2052,7 +2087,7 @@
                 "visit-level-list": "Chcesz zobaczyć swoją listę poziomów?",
                 "saving-level-and-reloading": "Zapisywanie poziomu i włączanie na nowo...",
                 "tile-bucket-limit": "Sory panie kapitanie,  narzędzie wiadra może zapełnić tylko {0} jednocześnie.",
-                "sprite-bank-added-for-generator": "[!]A new Sprite Bank has been added for this generator."
+                "sprite-bank-added-for-generator": "Nowy Bank Sprite'ów został dodany do generatora."
             }
         }
     }
